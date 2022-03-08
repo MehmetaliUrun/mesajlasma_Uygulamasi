@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="158dp"
+        android:layout_height="158dp"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        app:srcCompat="@drawable/campu" />
+    e
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_below="@id/imageView3"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/editarkaplan"
+        android:hint="Email"
+        android:paddingLeft="18dp"
+
+        ></EditText>
+    <EditText
+        android:id="@+id/pasword1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_below="@id/email"
+        android:layout_marginTop="18dp"
+        android:hint="Şifre"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:paddingLeft="18dp"
+        android:background="@drawable/editarkaplan"
+
+        ></EditText>
+    <Button
+        android:id="@+id/giris1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pasword1"
+        android:text="Giriş"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/butonarkaplan"
+
+
+        ></Button>
+
+    <Button
+        android:id="@+id/kayit1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/giris1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/butonarkaplan"
+        android:text="Kayıt"
+
+
+        ></Button>
+
+
+</RelativeLayout>
